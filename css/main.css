@@ -106,8 +106,9 @@ a.mbtn:hover {
 	color: #f8f9fa !important; /*LIGHT*/
 }
 
-.contact-link>a {
+.contact-link>a>h2,h5 {
 	color: #f8f9fa; /*LIGHT*/
 }
+
 
 
