@@ -7,6 +7,7 @@ body,html {
 	font-family: 'Poppins' !important;
 	color: #f8f9fa; /*dark: #343a40 light:#f8f9fa*/
 }
+
 p {
 	font-family: 'Open Sans' !important;
 }
@@ -92,6 +93,10 @@ a.mbtn:hover {
 	border-radius: 0px;
 	border: 1px solid #FCB900;
 	color: #f8f9fa99 !important; //light
+}
+
+.contacts-link {
+	color: #f8f9fa;
 }
 
 
