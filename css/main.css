@@ -51,8 +51,8 @@ ACCENT2:#301504 U BROWN
 .hero {
 	
 }
-.hero-tittle {
-	
+.hero-tittle>h1 {
+	font-weight: 800 !important;
 }
 .title {
 	font-family: 'Kaushan Script' !important;
