@@ -5,13 +5,18 @@ body,html {
 	height: 100%;
 	background: black;
 	font-family: 'Poppins' !important;
-	color: #f8f9fa; /*dark: #343a40 light:#f8f9fa*/
+	color: #f8f9fa; /*LIGHT*/
 }
 
 p {
 	font-family: 'Open Sans' !important;
 }
-/*UPS Gold FCB900  UPS BROWN 301504*/
+/*
+DARK: 	#343a40
+LIGH: 	#f8f9fa
+ACCENT:	#FCB900 U GOLD
+ACCENT2:#301504 U BROWN 
+*/
 
 /* width */
 ::-webkit-scrollbar {
@@ -21,23 +26,24 @@ p {
 
 /* Track */
 ::-webkit-scrollbar-track {
-    background: #301504;   //var background
+    background: #301504;   /*UPS BROWN*/
 }
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #FCB900; //var accent
+    background: #FCB900; /*UPS GOLD*/
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: moccasin; //var second accent
+    background: moccasin; /*TERTIARY ACCENT*/
 }
 .viewport {
 	height: 100%;
 	
 }
 
+/*For padding between section*/
 .viewport33 {
 	height: 33%;
 }
@@ -88,20 +94,20 @@ p {
 }
 
 .mbtn {
-	background: #FCB900;
+	background: #FCB900; /*UPS GOLD*/
 	border-radius: 0px;
 	border: 1px;
-	color:#343a40 !important; //dark
+	color:#343a40 !important; /*DARK*/
 }
 a.mbtn:hover {
-	background: #ffffff00;
+	background: #ffffff00; /*TRANSPARENT*/
 	border-radius: 0px;
 	border: 1px solid #FCB900;
-	color: #f8f9fa99 !important; //light
+	color: #f8f9fa !important; /*LIGHT*/
 }
 
-.contacts-link {
-	color: #f8f9fa;
+.contact-link>a {
+	color: #f8f9fa; /*LIGHT*/
 }
 
 
