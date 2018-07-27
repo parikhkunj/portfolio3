@@ -1,0 +1,97 @@
+* {
+	box-sizing: border-box;
+}
+body,html {
+	height: 100%;
+	background: black;
+	font-family: 'Poppins' !important;
+	color: #f8f9fa; /*dark: #343a40 light:#f8f9fa*/
+}
+p {
+	font-family: 'Open Sans' !important;
+}
+/*UPS Gold FCB900  UPS BROWN 301504*/
+
+/* width */
+::-webkit-scrollbar {
+    height: 1px;
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #301504;   //var background
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #FCB900; //var accent
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: moccasin; //var second accent
+}
+.viewport {
+	height: 100%;
+	
+}
+.hero {
+	
+}
+.hero-tittle {
+	
+}
+.title {
+	font-family: 'Kaushan Script' !important;
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+.store-container,.project-container{
+	overflow-x: auto;
+	white-space: nowrap;
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.store-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 10px 5px;
+}
+
+.store-item-img {
+	margin: 10px;
+}
+
+
+
+.project-item {
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	padding: 10px;
+}
+
+.mbtn-container {
+
+}
+
+.mbtn {
+	background: #FCB900;
+	border-radius: 0px;
+	border: 1px;
+	color:#343a40 !important; //dark
+}
+a.mbtn:hover {
+	background: #ffffff00;
+	border-radius: 0px;
+	border: 1px solid #FCB900;
+	color: #f8f9fa99 !important; //light
+}
+
+
